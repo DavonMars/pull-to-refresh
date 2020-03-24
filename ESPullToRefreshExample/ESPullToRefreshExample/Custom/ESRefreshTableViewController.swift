@@ -136,7 +136,7 @@ public class ESRefreshTableViewController: UITableViewController {
     
     public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
-        self.navigationController?.pushViewController(WebViewController.init(), animated: true)
+        self.navigationController?.pushViewController(UIViewController(), animated: true)
     }
     
 }

@@ -36,8 +36,6 @@
 		F69200151CDB9A530029EF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69200131CDB9A530029EF47 /* Main.storyboard */; };
 		F69200171CDB9A530029EF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69200161CDB9A530029EF47 /* Assets.xcassets */; };
 		F692001A1CDB9A530029EF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69200181CDB9A530029EF47 /* LaunchScreen.storyboard */; };
-		F6AA6C401CDC80DD00723622 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA6C3E1CDC80DD00723622 /* WebViewController.swift */; };
-		F6AA6C411CDC80DD00723622 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AA6C3F1CDC80DD00723622 /* WebViewController.xib */; };
 		F6AB6EA51D6AF82100AC33BE /* ESRefreshTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB6EA31D6AF82100AC33BE /* ESRefreshTableViewCell.swift */; };
 		F6AB6EA61D6AF82100AC33BE /* ESRefreshTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AB6EA41D6AF82100AC33BE /* ESRefreshTableViewCell.xib */; };
 		F6AE47331CE062F00006C017 /* WCRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE47321CE062F00006C017 /* WCRefreshHeaderAnimator.swift */; };
@@ -92,8 +90,6 @@
 		F69200161CDB9A530029EF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F69200191CDB9A530029EF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F692001B1CDB9A530029EF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6AA6C3E1CDC80DD00723622 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		F6AA6C3F1CDC80DD00723622 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		F6AB6EA31D6AF82100AC33BE /* ESRefreshTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshTableViewCell.swift; sourceTree = "<group>"; };
 		F6AB6EA41D6AF82100AC33BE /* ESRefreshTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESRefreshTableViewCell.xib; sourceTree = "<group>"; };
 		F6AE47321CE062F00006C017 /* WCRefreshHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCRefreshHeaderAnimator.swift; sourceTree = "<group>"; };
@@ -220,8 +216,6 @@
 				F69200111CDB9A530029EF47 /* ViewController.swift */,
 				F66B80311D86BE36006DDD16 /* ListTableViewCell.swift */,
 				F66B80321D86BE36006DDD16 /* ListTableViewCell.xib */,
-				F6AA6C3E1CDC80DD00723622 /* WebViewController.swift */,
-				F6AA6C3F1CDC80DD00723622 /* WebViewController.xib */,
 				F636136D1CDD9C9100AA9AF7 /* Custom */,
 				F69200131CDB9A530029EF47 /* Main.storyboard */,
 				F69200181CDB9A530029EF47 /* LaunchScreen.storyboard */,
@@ -376,7 +370,6 @@
 				F69200171CDB9A530029EF47 /* Assets.xcassets in Resources */,
 				F69200151CDB9A530029EF47 /* Main.storyboard in Resources */,
 				F66B80341D86BE36006DDD16 /* ListTableViewCell.xib in Resources */,
-				F6AA6C411CDC80DD00723622 /* WebViewController.xib in Resources */,
 				F6C5F2F71DD2C8C7001DEA80 /* ESPhotoTableViewCell.xib in Resources */,
 				F69077111D0D0A7F00BE91FE /* icon_pull_to_refresh_arrow@2x.png in Resources */,
 			);
@@ -409,7 +402,6 @@
 				F63613721CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift in Sources */,
 				F69077211D0D0A7F00BE91FE /* ESRefreshProtocol.swift in Sources */,
 				F6AB6EA51D6AF82100AC33BE /* ESRefreshTableViewCell.swift in Sources */,
-				F6AA6C401CDC80DD00723622 /* WebViewController.swift in Sources */,
 				F690770B1D0D0A7F00BE91FE /* ESRefreshFooterAnimator.swift in Sources */,
 				F6AE47371CE089480006C017 /* WeChatTableHeaderView.swift in Sources */,
 				F6F63A3F1D3C75750017F621 /* ESRefreshDayHeaderAnimator.swift in Sources */,
